@@ -13,4 +13,8 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "SSDrawingUtilities.h"
+    #import "UIView+Utilities.h"
 #endif
+
+#define is4inch  (([[UIScreen mainScreen] bounds].size.height == 568)? YES : NO)

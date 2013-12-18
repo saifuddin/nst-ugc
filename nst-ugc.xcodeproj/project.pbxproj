@@ -19,6 +19,50 @@
 		7AD16DCF186063270037BD5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD16DB7186063270037BD5F /* UIKit.framework */; };
 		7AD16DD7186063270037BD5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16DD5186063270037BD5F /* InfoPlist.strings */; };
 		7AD16DD9186063270037BD5F /* nst_ugcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16DD8186063270037BD5F /* nst_ugcTests.m */; };
+		7AD16DE4186063980037BD5F /* LBUGCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16DE3186063980037BD5F /* LBUGCViewController.m */; };
+		7AD16DE6186063C60037BD5F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD16DE5186063C60037BD5F /* CoreLocation.framework */; };
+		7AD16DE8186063CB0037BD5F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD16DE7186063CB0037BD5F /* MapKit.framework */; };
+		7AD16DEA186063F40037BD5F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD16DE9186063F40037BD5F /* QuartzCore.framework */; };
+		7AD16DF3186064820037BD5F /* AngleGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16DEE186064820037BD5F /* AngleGradientLayer.m */; };
+		7AD16DF4186064820037BD5F /* SSDrawingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16DF0186064820037BD5F /* SSDrawingUtilities.m */; };
+		7AD16DF5186064820037BD5F /* UIView+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16DF2186064820037BD5F /* UIView+Utilities.m */; };
+		7AD16DFA186064E70037BD5F /* LBRadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16DF7186064E70037BD5F /* LBRadarView.m */; };
+		7AD16DFB186064E70037BD5F /* LBTweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16DF9186064E70037BD5F /* LBTweetCell.m */; };
+		7AD16E0B1860654E0037BD5F /* btn-time.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16DFD1860654E0037BD5F /* btn-time.png */; };
+		7AD16E0C1860654E0037BD5F /* btn-time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16DFE1860654E0037BD5F /* btn-time@2x.png */; };
+		7AD16E0D1860654E0037BD5F /* bubble_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16DFF1860654E0037BD5F /* bubble_arrow.png */; };
+		7AD16E0E1860654E0037BD5F /* bubble_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E001860654E0037BD5F /* bubble_arrow@2x.png */; };
+		7AD16E0F1860654E0037BD5F /* bubble_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E011860654E0037BD5F /* bubble_bottom.png */; };
+		7AD16E101860654E0037BD5F /* bubble_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E021860654E0037BD5F /* bubble_bottom@2x.png */; };
+		7AD16E111860654E0037BD5F /* bubble_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E031860654E0037BD5F /* bubble_left.png */; };
+		7AD16E121860654E0037BD5F /* bubble_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E041860654E0037BD5F /* bubble_left@2x.png */; };
+		7AD16E131860654E0037BD5F /* bubble_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E051860654E0037BD5F /* bubble_right.png */; };
+		7AD16E141860654E0037BD5F /* bubble_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E061860654E0037BD5F /* bubble_right@2x.png */; };
+		7AD16E151860654E0037BD5F /* bubble_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E071860654E0037BD5F /* bubble_top.png */; };
+		7AD16E161860654E0037BD5F /* bubble_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E081860654E0037BD5F /* bubble_top@2x.png */; };
+		7AD16E171860654E0037BD5F /* icon-geoloc.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E091860654E0037BD5F /* icon-geoloc.png */; };
+		7AD16E181860654E0037BD5F /* icon-geoloc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E0A1860654E0037BD5F /* icon-geoloc@2x.png */; };
+		7AD16E2118609BDD0037BD5F /* LBTweetMapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E2018609BDD0037BD5F /* LBTweetMapCell.m */; };
+		7AD16E2418609D600037BD5F /* LBAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E2318609D600037BD5F /* LBAnnotation.m */; };
+		7AD16E2718609EC00037BD5F /* icon-national.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E2518609EC00037BD5F /* icon-national.png */; };
+		7AD16E2818609EC00037BD5F /* icon-national@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E2618609EC00037BD5F /* icon-national@2x.png */; };
+		7AD16E2A1861520A0037BD5F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD16E291861520A0037BD5F /* Accounts.framework */; };
+		7AD16E2C186152110037BD5F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD16E2B186152110037BD5F /* Security.framework */; };
+		7AD16E2E186152150037BD5F /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD16E2D186152150037BD5F /* Twitter.framework */; };
+		7AD16E301861521F0037BD5F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD16E2F1861521F0037BD5F /* Social.framework */; };
+		7AD16E4B186152F40037BD5F /* NSDateFormatter+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E33186152F40037BD5F /* NSDateFormatter+STTwitter.m */; };
+		7AD16E4C186152F40037BD5F /* NSString+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E35186152F40037BD5F /* NSString+STTwitter.m */; };
+		7AD16E4D186152F40037BD5F /* STHTTPRequest+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E37186152F40037BD5F /* STHTTPRequest+STTwitter.m */; };
+		7AD16E4E186152F40037BD5F /* STTwitterAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E3A186152F40037BD5F /* STTwitterAPI.m */; };
+		7AD16E4F186152F40037BD5F /* STTwitterAppOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E3C186152F40037BD5F /* STTwitterAppOnly.m */; };
+		7AD16E50186152F40037BD5F /* STTwitterHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E3E186152F40037BD5F /* STTwitterHTML.m */; };
+		7AD16E51186152F40037BD5F /* STTwitterOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E40186152F40037BD5F /* STTwitterOAuth.m */; };
+		7AD16E52186152F40037BD5F /* STTwitterOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E42186152F40037BD5F /* STTwitterOS.m */; };
+		7AD16E53186152F40037BD5F /* BAVPlistNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E46186152F40037BD5F /* BAVPlistNode.m */; };
+		7AD16E54186152F40037BD5F /* JSONSyntaxHighlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E48186152F40037BD5F /* JSONSyntaxHighlight.m */; };
+		7AD16E55186152F40037BD5F /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E4A186152F40037BD5F /* STHTTPRequest.m */; };
+		7AD16E5B18615ED00037BD5F /* YLActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E5A18615ED00037BD5F /* YLActivityIndicatorView.m */; };
+		7AD16E5D1861B4340037BD5F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E5C1861B4340037BD5F /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +92,72 @@
 		7AD16DD4186063270037BD5F /* nst-ugcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nst-ugcTests-Info.plist"; sourceTree = "<group>"; };
 		7AD16DD6186063270037BD5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7AD16DD8186063270037BD5F /* nst_ugcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nst_ugcTests.m; sourceTree = "<group>"; };
+		7AD16DE2186063980037BD5F /* LBUGCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBUGCViewController.h; sourceTree = "<group>"; };
+		7AD16DE3186063980037BD5F /* LBUGCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBUGCViewController.m; sourceTree = "<group>"; };
+		7AD16DE5186063C60037BD5F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7AD16DE7186063CB0037BD5F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7AD16DE9186063F40037BD5F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7AD16DED186064820037BD5F /* AngleGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngleGradientLayer.h; sourceTree = "<group>"; };
+		7AD16DEE186064820037BD5F /* AngleGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngleGradientLayer.m; sourceTree = "<group>"; };
+		7AD16DEF186064820037BD5F /* SSDrawingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDrawingUtilities.h; sourceTree = "<group>"; };
+		7AD16DF0186064820037BD5F /* SSDrawingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDrawingUtilities.m; sourceTree = "<group>"; };
+		7AD16DF1186064820037BD5F /* UIView+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utilities.h"; sourceTree = "<group>"; };
+		7AD16DF2186064820037BD5F /* UIView+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utilities.m"; sourceTree = "<group>"; };
+		7AD16DF6186064E70037BD5F /* LBRadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBRadarView.h; sourceTree = "<group>"; };
+		7AD16DF7186064E70037BD5F /* LBRadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBRadarView.m; sourceTree = "<group>"; };
+		7AD16DF8186064E70037BD5F /* LBTweetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTweetCell.h; sourceTree = "<group>"; };
+		7AD16DF9186064E70037BD5F /* LBTweetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTweetCell.m; sourceTree = "<group>"; };
+		7AD16DFD1860654E0037BD5F /* btn-time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-time.png"; sourceTree = "<group>"; };
+		7AD16DFE1860654E0037BD5F /* btn-time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-time@2x.png"; sourceTree = "<group>"; };
+		7AD16DFF1860654E0037BD5F /* bubble_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble_arrow.png; sourceTree = "<group>"; };
+		7AD16E001860654E0037BD5F /* bubble_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_arrow@2x.png"; sourceTree = "<group>"; };
+		7AD16E011860654E0037BD5F /* bubble_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble_bottom.png; sourceTree = "<group>"; };
+		7AD16E021860654E0037BD5F /* bubble_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_bottom@2x.png"; sourceTree = "<group>"; };
+		7AD16E031860654E0037BD5F /* bubble_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble_left.png; sourceTree = "<group>"; };
+		7AD16E041860654E0037BD5F /* bubble_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_left@2x.png"; sourceTree = "<group>"; };
+		7AD16E051860654E0037BD5F /* bubble_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble_right.png; sourceTree = "<group>"; };
+		7AD16E061860654E0037BD5F /* bubble_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_right@2x.png"; sourceTree = "<group>"; };
+		7AD16E071860654E0037BD5F /* bubble_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble_top.png; sourceTree = "<group>"; };
+		7AD16E081860654E0037BD5F /* bubble_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_top@2x.png"; sourceTree = "<group>"; };
+		7AD16E091860654E0037BD5F /* icon-geoloc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-geoloc.png"; sourceTree = "<group>"; };
+		7AD16E0A1860654E0037BD5F /* icon-geoloc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-geoloc@2x.png"; sourceTree = "<group>"; };
+		7AD16E1F18609BDD0037BD5F /* LBTweetMapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTweetMapCell.h; sourceTree = "<group>"; };
+		7AD16E2018609BDD0037BD5F /* LBTweetMapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTweetMapCell.m; sourceTree = "<group>"; };
+		7AD16E2218609D600037BD5F /* LBAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBAnnotation.h; sourceTree = "<group>"; };
+		7AD16E2318609D600037BD5F /* LBAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBAnnotation.m; sourceTree = "<group>"; };
+		7AD16E2518609EC00037BD5F /* icon-national.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-national.png"; sourceTree = "<group>"; };
+		7AD16E2618609EC00037BD5F /* icon-national@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-national@2x.png"; sourceTree = "<group>"; };
+		7AD16E291861520A0037BD5F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		7AD16E2B186152110037BD5F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7AD16E2D186152150037BD5F /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		7AD16E2F1861521F0037BD5F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		7AD16E32186152F40037BD5F /* NSDateFormatter+STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+STTwitter.h"; sourceTree = "<group>"; };
+		7AD16E33186152F40037BD5F /* NSDateFormatter+STTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+STTwitter.m"; sourceTree = "<group>"; };
+		7AD16E34186152F40037BD5F /* NSString+STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+STTwitter.h"; sourceTree = "<group>"; };
+		7AD16E35186152F40037BD5F /* NSString+STTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+STTwitter.m"; sourceTree = "<group>"; };
+		7AD16E36186152F40037BD5F /* STHTTPRequest+STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STHTTPRequest+STTwitter.h"; sourceTree = "<group>"; };
+		7AD16E37186152F40037BD5F /* STHTTPRequest+STTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STHTTPRequest+STTwitter.m"; sourceTree = "<group>"; };
+		7AD16E38186152F40037BD5F /* STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitter.h; sourceTree = "<group>"; };
+		7AD16E39186152F40037BD5F /* STTwitterAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterAPI.h; sourceTree = "<group>"; };
+		7AD16E3A186152F40037BD5F /* STTwitterAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterAPI.m; sourceTree = "<group>"; };
+		7AD16E3B186152F40037BD5F /* STTwitterAppOnly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterAppOnly.h; sourceTree = "<group>"; };
+		7AD16E3C186152F40037BD5F /* STTwitterAppOnly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterAppOnly.m; sourceTree = "<group>"; };
+		7AD16E3D186152F40037BD5F /* STTwitterHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterHTML.h; sourceTree = "<group>"; };
+		7AD16E3E186152F40037BD5F /* STTwitterHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterHTML.m; sourceTree = "<group>"; };
+		7AD16E3F186152F40037BD5F /* STTwitterOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterOAuth.h; sourceTree = "<group>"; };
+		7AD16E40186152F40037BD5F /* STTwitterOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterOAuth.m; sourceTree = "<group>"; };
+		7AD16E41186152F40037BD5F /* STTwitterOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterOS.h; sourceTree = "<group>"; };
+		7AD16E42186152F40037BD5F /* STTwitterOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterOS.m; sourceTree = "<group>"; };
+		7AD16E43186152F40037BD5F /* STTwitterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterProtocol.h; sourceTree = "<group>"; };
+		7AD16E45186152F40037BD5F /* BAVPlistNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAVPlistNode.h; sourceTree = "<group>"; };
+		7AD16E46186152F40037BD5F /* BAVPlistNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAVPlistNode.m; sourceTree = "<group>"; };
+		7AD16E47186152F40037BD5F /* JSONSyntaxHighlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONSyntaxHighlight.h; sourceTree = "<group>"; };
+		7AD16E48186152F40037BD5F /* JSONSyntaxHighlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONSyntaxHighlight.m; sourceTree = "<group>"; };
+		7AD16E49186152F40037BD5F /* STHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHTTPRequest.h; sourceTree = "<group>"; };
+		7AD16E4A186152F40037BD5F /* STHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHTTPRequest.m; sourceTree = "<group>"; };
+		7AD16E5918615ED00037BD5F /* YLActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLActivityIndicatorView.h; sourceTree = "<group>"; };
+		7AD16E5A18615ED00037BD5F /* YLActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLActivityIndicatorView.m; sourceTree = "<group>"; };
+		7AD16E5C1861B4340037BD5F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +165,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AD16E301861521F0037BD5F /* Social.framework in Frameworks */,
+				7AD16E2E186152150037BD5F /* Twitter.framework in Frameworks */,
+				7AD16E2C186152110037BD5F /* Security.framework in Frameworks */,
+				7AD16E2A1861520A0037BD5F /* Accounts.framework in Frameworks */,
+				7AD16DEA186063F40037BD5F /* QuartzCore.framework in Frameworks */,
+				7AD16DE8186063CB0037BD5F /* MapKit.framework in Frameworks */,
+				7AD16DE6186063C60037BD5F /* CoreLocation.framework in Frameworks */,
 				7AD16DB6186063270037BD5F /* CoreGraphics.framework in Frameworks */,
 				7AD16DB8186063270037BD5F /* UIKit.framework in Frameworks */,
 				7AD16DB4186063270037BD5F /* Foundation.framework in Frameworks */,
@@ -96,6 +213,13 @@
 		7AD16DB2186063270037BD5F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7AD16E2F1861521F0037BD5F /* Social.framework */,
+				7AD16E2D186152150037BD5F /* Twitter.framework */,
+				7AD16E2B186152110037BD5F /* Security.framework */,
+				7AD16E291861520A0037BD5F /* Accounts.framework */,
+				7AD16DE9186063F40037BD5F /* QuartzCore.framework */,
+				7AD16DE7186063CB0037BD5F /* MapKit.framework */,
+				7AD16DE5186063C60037BD5F /* CoreLocation.framework */,
 				7AD16DB3186063270037BD5F /* Foundation.framework */,
 				7AD16DB5186063270037BD5F /* CoreGraphics.framework */,
 				7AD16DB7186063270037BD5F /* UIKit.framework */,
@@ -107,8 +231,13 @@
 		7AD16DB9186063270037BD5F /* nst-ugc */ = {
 			isa = PBXGroup;
 			children = (
+				7AD16E31186152F40037BD5F /* STTwitter */,
+				7AD16DFC1860654E0037BD5F /* Resources */,
+				7AD16DEB186064820037BD5F /* OtherClasses */,
 				7AD16DC2186063270037BD5F /* LBAppDelegate.h */,
 				7AD16DC3186063270037BD5F /* LBAppDelegate.m */,
+				7AD16DE2186063980037BD5F /* LBUGCViewController.h */,
+				7AD16DE3186063980037BD5F /* LBUGCViewController.m */,
 				7AD16DC5186063270037BD5F /* Images.xcassets */,
 				7AD16DBA186063270037BD5F /* Supporting Files */,
 			);
@@ -142,6 +271,100 @@
 				7AD16DD5186063270037BD5F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AD16DEB186064820037BD5F /* OtherClasses */ = {
+			isa = PBXGroup;
+			children = (
+				7AD16E5918615ED00037BD5F /* YLActivityIndicatorView.h */,
+				7AD16E5A18615ED00037BD5F /* YLActivityIndicatorView.m */,
+				7AD16E2218609D600037BD5F /* LBAnnotation.h */,
+				7AD16E2318609D600037BD5F /* LBAnnotation.m */,
+				7AD16E1F18609BDD0037BD5F /* LBTweetMapCell.h */,
+				7AD16E2018609BDD0037BD5F /* LBTweetMapCell.m */,
+				7AD16DF6186064E70037BD5F /* LBRadarView.h */,
+				7AD16DF7186064E70037BD5F /* LBRadarView.m */,
+				7AD16DF8186064E70037BD5F /* LBTweetCell.h */,
+				7AD16DF9186064E70037BD5F /* LBTweetCell.m */,
+				7AD16DEC186064820037BD5F /* AngleGradient */,
+				7AD16DEF186064820037BD5F /* SSDrawingUtilities.h */,
+				7AD16DF0186064820037BD5F /* SSDrawingUtilities.m */,
+				7AD16DF1186064820037BD5F /* UIView+Utilities.h */,
+				7AD16DF2186064820037BD5F /* UIView+Utilities.m */,
+			);
+			path = OtherClasses;
+			sourceTree = "<group>";
+		};
+		7AD16DEC186064820037BD5F /* AngleGradient */ = {
+			isa = PBXGroup;
+			children = (
+				7AD16DED186064820037BD5F /* AngleGradientLayer.h */,
+				7AD16DEE186064820037BD5F /* AngleGradientLayer.m */,
+			);
+			path = AngleGradient;
+			sourceTree = "<group>";
+		};
+		7AD16DFC1860654E0037BD5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7AD16E5C1861B4340037BD5F /* icon.png */,
+				7AD16E2518609EC00037BD5F /* icon-national.png */,
+				7AD16E2618609EC00037BD5F /* icon-national@2x.png */,
+				7AD16DFD1860654E0037BD5F /* btn-time.png */,
+				7AD16DFE1860654E0037BD5F /* btn-time@2x.png */,
+				7AD16DFF1860654E0037BD5F /* bubble_arrow.png */,
+				7AD16E001860654E0037BD5F /* bubble_arrow@2x.png */,
+				7AD16E011860654E0037BD5F /* bubble_bottom.png */,
+				7AD16E021860654E0037BD5F /* bubble_bottom@2x.png */,
+				7AD16E031860654E0037BD5F /* bubble_left.png */,
+				7AD16E041860654E0037BD5F /* bubble_left@2x.png */,
+				7AD16E051860654E0037BD5F /* bubble_right.png */,
+				7AD16E061860654E0037BD5F /* bubble_right@2x.png */,
+				7AD16E071860654E0037BD5F /* bubble_top.png */,
+				7AD16E081860654E0037BD5F /* bubble_top@2x.png */,
+				7AD16E091860654E0037BD5F /* icon-geoloc.png */,
+				7AD16E0A1860654E0037BD5F /* icon-geoloc@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7AD16E31186152F40037BD5F /* STTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				7AD16E32186152F40037BD5F /* NSDateFormatter+STTwitter.h */,
+				7AD16E33186152F40037BD5F /* NSDateFormatter+STTwitter.m */,
+				7AD16E34186152F40037BD5F /* NSString+STTwitter.h */,
+				7AD16E35186152F40037BD5F /* NSString+STTwitter.m */,
+				7AD16E36186152F40037BD5F /* STHTTPRequest+STTwitter.h */,
+				7AD16E37186152F40037BD5F /* STHTTPRequest+STTwitter.m */,
+				7AD16E38186152F40037BD5F /* STTwitter.h */,
+				7AD16E39186152F40037BD5F /* STTwitterAPI.h */,
+				7AD16E3A186152F40037BD5F /* STTwitterAPI.m */,
+				7AD16E3B186152F40037BD5F /* STTwitterAppOnly.h */,
+				7AD16E3C186152F40037BD5F /* STTwitterAppOnly.m */,
+				7AD16E3D186152F40037BD5F /* STTwitterHTML.h */,
+				7AD16E3E186152F40037BD5F /* STTwitterHTML.m */,
+				7AD16E3F186152F40037BD5F /* STTwitterOAuth.h */,
+				7AD16E40186152F40037BD5F /* STTwitterOAuth.m */,
+				7AD16E41186152F40037BD5F /* STTwitterOS.h */,
+				7AD16E42186152F40037BD5F /* STTwitterOS.m */,
+				7AD16E43186152F40037BD5F /* STTwitterProtocol.h */,
+				7AD16E44186152F40037BD5F /* Vendor */,
+			);
+			path = STTwitter;
+			sourceTree = "<group>";
+		};
+		7AD16E44186152F40037BD5F /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				7AD16E45186152F40037BD5F /* BAVPlistNode.h */,
+				7AD16E46186152F40037BD5F /* BAVPlistNode.m */,
+				7AD16E47186152F40037BD5F /* JSONSyntaxHighlight.h */,
+				7AD16E48186152F40037BD5F /* JSONSyntaxHighlight.m */,
+				7AD16E49186152F40037BD5F /* STHTTPRequest.h */,
+				7AD16E4A186152F40037BD5F /* STHTTPRequest.m */,
+			);
+			path = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +443,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AD16E0E1860654E0037BD5F /* bubble_arrow@2x.png in Resources */,
+				7AD16E101860654E0037BD5F /* bubble_bottom@2x.png in Resources */,
+				7AD16E0C1860654E0037BD5F /* btn-time@2x.png in Resources */,
+				7AD16E0D1860654E0037BD5F /* bubble_arrow.png in Resources */,
+				7AD16E171860654E0037BD5F /* icon-geoloc.png in Resources */,
+				7AD16E0F1860654E0037BD5F /* bubble_bottom.png in Resources */,
+				7AD16E141860654E0037BD5F /* bubble_right@2x.png in Resources */,
+				7AD16E131860654E0037BD5F /* bubble_right.png in Resources */,
+				7AD16E111860654E0037BD5F /* bubble_left.png in Resources */,
+				7AD16E0B1860654E0037BD5F /* btn-time.png in Resources */,
+				7AD16E151860654E0037BD5F /* bubble_top.png in Resources */,
+				7AD16E161860654E0037BD5F /* bubble_top@2x.png in Resources */,
+				7AD16E5D1861B4340037BD5F /* icon.png in Resources */,
 				7AD16DBE186063270037BD5F /* InfoPlist.strings in Resources */,
+				7AD16E2818609EC00037BD5F /* icon-national@2x.png in Resources */,
 				7AD16DC6186063270037BD5F /* Images.xcassets in Resources */,
+				7AD16E181860654E0037BD5F /* icon-geoloc@2x.png in Resources */,
+				7AD16E121860654E0037BD5F /* bubble_left@2x.png in Resources */,
+				7AD16E2718609EC00037BD5F /* icon-national.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +480,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AD16E5B18615ED00037BD5F /* YLActivityIndicatorView.m in Sources */,
+				7AD16E52186152F40037BD5F /* STTwitterOS.m in Sources */,
+				7AD16E54186152F40037BD5F /* JSONSyntaxHighlight.m in Sources */,
+				7AD16E4C186152F40037BD5F /* NSString+STTwitter.m in Sources */,
+				7AD16E2418609D600037BD5F /* LBAnnotation.m in Sources */,
 				7AD16DC4186063270037BD5F /* LBAppDelegate.m in Sources */,
+				7AD16E4D186152F40037BD5F /* STHTTPRequest+STTwitter.m in Sources */,
+				7AD16E4F186152F40037BD5F /* STTwitterAppOnly.m in Sources */,
+				7AD16DF5186064820037BD5F /* UIView+Utilities.m in Sources */,
+				7AD16DFA186064E70037BD5F /* LBRadarView.m in Sources */,
+				7AD16E55186152F40037BD5F /* STHTTPRequest.m in Sources */,
+				7AD16DF4186064820037BD5F /* SSDrawingUtilities.m in Sources */,
+				7AD16DF3186064820037BD5F /* AngleGradientLayer.m in Sources */,
+				7AD16E50186152F40037BD5F /* STTwitterHTML.m in Sources */,
+				7AD16E51186152F40037BD5F /* STTwitterOAuth.m in Sources */,
+				7AD16E2118609BDD0037BD5F /* LBTweetMapCell.m in Sources */,
+				7AD16E53186152F40037BD5F /* BAVPlistNode.m in Sources */,
 				7AD16DC0186063270037BD5F /* main.m in Sources */,
+				7AD16E4B186152F40037BD5F /* NSDateFormatter+STTwitter.m in Sources */,
+				7AD16DE4186063980037BD5F /* LBUGCViewController.m in Sources */,
+				7AD16DFB186064E70037BD5F /* LBTweetCell.m in Sources */,
+				7AD16E4E186152F40037BD5F /* STTwitterAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,14 +7,19 @@
 //
 
 #import "LBAppDelegate.h"
+#import "LBUGCViewController.h"
 
 @implementation LBAppDelegate
+
+@synthesize navController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    LBUGCViewController *rvc = [LBUGCViewController new];
+    self.navController = [[UINavigationController alloc] initWithRootViewController:rvc];
+    self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
     return YES;
 }
