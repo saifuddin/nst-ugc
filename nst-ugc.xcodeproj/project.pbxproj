@@ -69,6 +69,7 @@
 		7AD16E67186335070037BD5F /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E66186335070037BD5F /* NSString+Hash.m */; };
 		7AD16E6A1863351F0037BD5F /* FTWCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E691863351F0037BD5F /* FTWCache.m */; };
 		7AD16E6C186336540037BD5F /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E6B186336540037BD5F /* twitter.png */; };
+		7AD16E6F186343B50037BD5F /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E6E186343B50037BD5F /* NSDate+Utilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -173,6 +174,8 @@
 		7AD16E681863351F0037BD5F /* FTWCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTWCache.h; sourceTree = "<group>"; };
 		7AD16E691863351F0037BD5F /* FTWCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWCache.m; sourceTree = "<group>"; };
 		7AD16E6B186336540037BD5F /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		7AD16E6D186343B50037BD5F /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Utilities.h"; path = "OtherClasses/NSDate+Utilities.h"; sourceTree = "<group>"; };
+		7AD16E6E186343B50037BD5F /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Utilities.m"; path = "OtherClasses/NSDate+Utilities.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +256,8 @@
 				7AD16DC3186063270037BD5F /* LBAppDelegate.m */,
 				7AD16DE2186063980037BD5F /* LBUGCViewController.h */,
 				7AD16DE3186063980037BD5F /* LBUGCViewController.m */,
+				7AD16E6D186343B50037BD5F /* NSDate+Utilities.h */,
+				7AD16E6E186343B50037BD5F /* NSDate+Utilities.m */,
 				7AD16DC5186063270037BD5F /* Images.xcassets */,
 				7AD16DBA186063270037BD5F /* Supporting Files */,
 			);
@@ -514,6 +519,7 @@
 				7AD16E4C186152F40037BD5F /* NSString+STTwitter.m in Sources */,
 				7AD16E2418609D600037BD5F /* LBAnnotation.m in Sources */,
 				7AD16DC4186063270037BD5F /* LBAppDelegate.m in Sources */,
+				7AD16E6F186343B50037BD5F /* NSDate+Utilities.m in Sources */,
 				7AD16E4D186152F40037BD5F /* STHTTPRequest+STTwitter.m in Sources */,
 				7AD16E4F186152F40037BD5F /* STTwitterAppOnly.m in Sources */,
 				7AD16DF5186064820037BD5F /* UIView+Utilities.m in Sources */,

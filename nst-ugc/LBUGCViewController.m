@@ -12,6 +12,7 @@
 #import "LBRadarView.h"
 #import "YLActivityIndicatorView.h"
 #import "UIImageView+Network.h"
+#import "NSDate+Utilities.h"
 
 #define LOADING_TAG 33
 #define INDEX_OF_MAP 0
@@ -88,10 +89,25 @@
         }
         
         NSDictionary *status = _statuses[indexPath.row];
+        NSString *strCreatedAt = [status valueForKeyPath:@"created_at"];
+        NSDataDetector *detector = [NSDataDetector dataDetectorWithTypes:NSTextCheckingAllTypes error:nil];
+        NSTextCheckingResult *result = [detector firstMatchInString:strCreatedAt options:kNilOptions range:NSMakeRange(0, strCreatedAt.length)];
+        [tmpCell setLblTimeText:[NSDate relativeStringFromDate:result.date]];
         tmpCell.lblTweet.text = status[@"text"];
         tmpCell.lblName.text = [NSString stringWithFormat:@"@%@",[status valueForKeyPath:@"user.screen_name"]];
+        NSString *place = [status valueForKeyPath:@"place.full_name"];
+        if (![place isKindOfClass:[NSNull class]])
+        {
+            tmpCell.lblPlace.text = [status valueForKeyPath:@"place.full_name"];
+            tmpCell.geoLocImage.hidden = NO;
+        }
+        else
+        {
+            tmpCell.lblPlace.text = @"";
+            tmpCell.geoLocImage.hidden = YES;
+        }
         [tmpCell.profileImage loadImageFromURL:[NSURL URLWithString:[status valueForKeyPath:@"user.profile_image_url"]] placeholderImage:[UIImage imageNamed:@"twitter.png"]];
-        //    [cell realignSubviews];
+//      [cell realignSubviews];
         cell = tmpCell;
     }
     return cell;

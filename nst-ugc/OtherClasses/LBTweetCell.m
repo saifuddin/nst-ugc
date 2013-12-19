@@ -61,7 +61,7 @@
 @end
 
 @interface LBTweetCell ()
-@property (nonatomic, strong) UIImageView *bubbleTop, *bubbleArrow, *bubbleBottom, *bubbleLeft, *bubbleRight, *clockImage, *geoLocImage;
+@property (nonatomic, strong) UIImageView *bubbleTop, *bubbleArrow, *bubbleBottom, *bubbleLeft, *bubbleRight, *clockImage;
 @end
 
 @implementation LBTweetCell
@@ -147,6 +147,17 @@
         [self.contentView addSubview:_lblPlace];
     }
     return self;
+}
+
+- (void)setLblTimeText:(NSString *)text
+{
+    CGSize constraint = CGSizeMake(150, _lblTime.height);
+    CGSize size = [text sizeWithFont:_lblTime.font
+                        constrainedToSize:constraint
+                            lineBreakMode:_lblTime.lineBreakMode];
+    _lblTime.frame = CGRectMake(_bubbleRight.xEnd - size.width, _lblTime.y, size.width, _lblTime.height);
+    _lblTime.text = text;
+    _clockImage.frame = CGRectMake(_lblTime.x - _clockImage.width - 5, _clockImage.y, _clockImage.width, _clockImage.height);
 }
 
 - (void)realignSubviews
