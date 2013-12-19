@@ -13,6 +13,8 @@ static NSString * const kTweetStatus = @"kTweetStatus";
 static NSString * const kTweetMap = @"kTweetMap";
 static NSString * const kLocation = @"kLocation";
 static NSString * const kIdentifier = @"kIdentifier";
+static NSString * const kProfileImgURL = @"kProfileImgURL";
+
 
 @protocol LBTweetMapCellDelegate <NSObject>
 @optional

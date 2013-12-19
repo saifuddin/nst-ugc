@@ -11,6 +11,7 @@
 #import "STTwitterAPI.h"
 #import "LBRadarView.h"
 #import "YLActivityIndicatorView.h"
+#import "UIImageView+Network.h"
 
 #define LOADING_TAG 33
 #define INDEX_OF_MAP 0
@@ -89,6 +90,7 @@
         NSDictionary *status = _statuses[indexPath.row];
         tmpCell.lblTweet.text = status[@"text"];
         tmpCell.lblName.text = [NSString stringWithFormat:@"@%@",[status valueForKeyPath:@"user.screen_name"]];
+        [tmpCell.profileImage loadImageFromURL:[NSURL URLWithString:[status valueForKeyPath:@"user.profile_image_url"]] placeholderImage:[UIImage imageNamed:@"twitter.png"]];
         //    [cell realignSubviews];
         cell = tmpCell;
     }
@@ -140,7 +142,8 @@
                                      {
                                          CLLocation *location = [[CLLocation alloc] initWithLatitude:[coord[LATITUDE] doubleValue] longitude:[coord[LONGITUDE] doubleValue]];
                                          NSString *identifier = [NSString stringWithFormat:@"%d",i+1]; // compensate for first item is map, not tweet
-                                         NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:location, kLocation, identifier, kIdentifier, nil];
+                                         NSString *profileImgURL = [status valueForKeyPath:@"user.profile_image_url"];
+                                         NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:location, kLocation, identifier, kIdentifier, profileImgURL, kProfileImgURL, nil];
                                          [tmpCoords addObject:dict];
                                      }
                                  }

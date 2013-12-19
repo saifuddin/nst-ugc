@@ -9,6 +9,7 @@
 #import "LBTweetMapCell.h"
 #import "LBAnnotation.h"
 #import "LBRadarView.h"
+#import "UIImageView+Network.h"
 
 #define ICON_WIDTH 35
 
@@ -62,9 +63,11 @@
         {
             CLLocation *location = coordinate[kLocation];
             NSString *identifier = coordinate[kIdentifier];
+            NSString *profileImgURL = coordinate[kProfileImgURL];
             CLLocationCoordinate2D coord = CLLocationCoordinate2DMake(location.coordinate.latitude, location.coordinate.longitude);
             LBAnnotation *ann = [[LBAnnotation alloc] initWithCoordinate:coord];
             ann.identifier = identifier;
+            ann.profileImgURL = profileImgURL;
             [self.mapView addAnnotation:ann];
         }
         self.btnZoom.hidden = NO;
@@ -78,7 +81,7 @@
 
 
 
-- (MKAnnotationView *)mapView:(MKMapView *)mv viewForAnnotation:(id<MKAnnotation>)annotation
+- (MKAnnotationView *)mapView:(MKMapView *)mv viewForAnnotation:(LBAnnotation *)annotation
 {
     MKAnnotationView *annView = (MKAnnotationView *)[_mapView dequeueReusableAnnotationViewWithIdentifier: @"pin"];
     if (annView == nil)
@@ -130,8 +133,8 @@
     MKAnnotationView *av = (MKAnnotationView *)btn.superview;
     LBAnnotation *ann = av.annotation;
     
-    UIImageView *v = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"icon"]];
-    v.frame = CGRectMake(0, 0, ICON_WIDTH, ICON_WIDTH);
+    UIImageView *v = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, ICON_WIDTH, ICON_WIDTH)];
+    [v loadImageFromURL:[NSURL URLWithString:ann.profileImgURL] placeholderImage:[UIImage imageNamed:@"twitter.png"]];
 
     [UIView transitionFromView:btn
                         toView:v
