@@ -63,6 +63,8 @@
 		7AD16E55186152F40037BD5F /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E4A186152F40037BD5F /* STHTTPRequest.m */; };
 		7AD16E5B18615ED00037BD5F /* YLActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD16E5A18615ED00037BD5F /* YLActivityIndicatorView.m */; };
 		7AD16E5D1861B4340037BD5F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E5C1861B4340037BD5F /* icon.png */; };
+		7AD16E601862F7B10037BD5F /* icon-#nst.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E5E1862F7B10037BD5F /* icon-#nst.png */; };
+		7AD16E611862F7B10037BD5F /* icon-#nst@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD16E5F1862F7B10037BD5F /* icon-#nst@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,6 +160,8 @@
 		7AD16E5918615ED00037BD5F /* YLActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLActivityIndicatorView.h; sourceTree = "<group>"; };
 		7AD16E5A18615ED00037BD5F /* YLActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLActivityIndicatorView.m; sourceTree = "<group>"; };
 		7AD16E5C1861B4340037BD5F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		7AD16E5E1862F7B10037BD5F /* icon-#nst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-#nst.png"; sourceTree = "<group>"; };
+		7AD16E5F1862F7B10037BD5F /* icon-#nst@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-#nst@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,6 +311,8 @@
 		7AD16DFC1860654E0037BD5F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7AD16E5E1862F7B10037BD5F /* icon-#nst.png */,
+				7AD16E5F1862F7B10037BD5F /* icon-#nst@2x.png */,
 				7AD16E5C1861B4340037BD5F /* icon.png */,
 				7AD16E2518609EC00037BD5F /* icon-national.png */,
 				7AD16E2618609EC00037BD5F /* icon-national@2x.png */,
@@ -449,7 +455,9 @@
 				7AD16E0D1860654E0037BD5F /* bubble_arrow.png in Resources */,
 				7AD16E171860654E0037BD5F /* icon-geoloc.png in Resources */,
 				7AD16E0F1860654E0037BD5F /* bubble_bottom.png in Resources */,
+				7AD16E601862F7B10037BD5F /* icon-#nst.png in Resources */,
 				7AD16E141860654E0037BD5F /* bubble_right@2x.png in Resources */,
+				7AD16E611862F7B10037BD5F /* icon-#nst@2x.png in Resources */,
 				7AD16E131860654E0037BD5F /* bubble_right.png in Resources */,
 				7AD16E111860654E0037BD5F /* bubble_left.png in Resources */,
 				7AD16E0B1860654E0037BD5F /* btn-time.png in Resources */,

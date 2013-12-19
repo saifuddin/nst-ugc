@@ -91,7 +91,7 @@
         annView.layer.masksToBounds = YES;
         
         UIButton *pinButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        [pinButton setImage:[UIImage imageNamed:@"icon-national"] forState:UIControlStateNormal];
+        [pinButton setImage:[UIImage imageNamed:@"icon-#nst"] forState:UIControlStateNormal];
         pinButton.frame = CGRectMake(0, 0, ICON_WIDTH, ICON_WIDTH);
         pinButton.tag = 10;
         
